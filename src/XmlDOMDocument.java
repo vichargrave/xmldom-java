@@ -29,8 +29,8 @@ public class XmlDOMDocument {
     m_doc = parser.parse(xmlfile);
   }
 
-  public int getChildCount(String elementName) {
-    NodeList nodes = m_doc.getElementsByTagName(elementName);
+  public int getElementCount(String elementTag) {
+    NodeList nodes = m_doc.getElementsByTagName(elementTag);
     return nodes.getLength();
   }
 

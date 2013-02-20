@@ -24,7 +24,7 @@ public class ParseTest {
     ParseTest test = new ParseTest();
     try {
       XmlDOMDocument doc = new XmlDOMDocument(new XmlDOMParser(), "./bookstore.xml");
-      int count = doc.getChildCount("book");
+      int count = doc.getElementCount("book");
       for (int i = 0; i < count; i++) {
         System.out.println("Book "+Integer.toString(+1));
         System.out.println("book category - "+doc.getAttributeValue("book", i, "category"));
