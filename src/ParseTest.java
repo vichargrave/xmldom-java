@@ -5,7 +5,7 @@
 
    ------------------------------------------
 
-   Copyright © 2013 [Vic Hargrave - http://vichargrave.com]
+   Copyright ï¿½ 2013 [Vic Hargrave - http://vichargrave.com]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -24,9 +24,9 @@ public class ParseTest {
     ParseTest test = new ParseTest();
     try {
       XmlDOMDocument doc = new XmlDOMDocument(new XmlDOMParser(), "./bookstore.xml");
-      int count = doc.getElementCount("book");
+      int count = doc.getChildCount("bookstore", 0, "book");
       for (int i = 0; i < count; i++) {
-        System.out.println("Book "+Integer.toString(+1));
+        System.out.println("Book "+Integer.toString(i+1));
         System.out.println("book category - "+doc.getAttributeValue("book", i, "category"));
         System.out.println("book title    - "+doc.getChildValue("book", i, "title"));
         System.out.println("book author   - "+doc.getChildValue("book", i, "author"));

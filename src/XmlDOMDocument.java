@@ -5,7 +5,7 @@
 
    ------------------------------------------
 
-   Copyright © 2013 [Vic Hargrave - http://vichargrave.com]
+   Copyright ï¿½ 2013 [Vic Hargrave - http://vichargrave.com]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -29,9 +29,11 @@ public class XmlDOMDocument {
     m_doc = parser.parse(xmlfile);
   }
 
-  public int getElementCount(String elementTag) {
-    NodeList nodes = m_doc.getElementsByTagName(elementTag);
-    return nodes.getLength();
+  public int getChildCount(String parentTag, int parentIndex, String childTag) {
+    NodeList nodes = m_doc.getElementsByTagName(parentTag);
+    Element parent = (Element) nodes.item(parentIndex);
+    NodeList childList = parent.getElementsByTagName(childTag);
+    return childList.getLength();
   }
 
   public String getChildValue(String parentTag, int parentIndex, String childTag) {
