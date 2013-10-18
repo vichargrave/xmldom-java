@@ -30,17 +30,17 @@ public class XmlDOMDocument {
   }
 
   public int getChildCount(String parentTag, int parentIndex, String childTag) {
-    NodeList nodes = m_doc.getElementsByTagName(parentTag);
-    Element parent = (Element) nodes.item(parentIndex);
+    NodeList list = m_doc.getElementsByTagName(parentTag);
+    Element parent = (Element) list.item(parentIndex);
     NodeList childList = parent.getElementsByTagName(childTag);
     return childList.getLength();
   }
 
-  public String getChildValue(String parentTag, int parentIndex, String childTag) {
-    NodeList nodes = m_doc.getElementsByTagName(parentTag);
-    Element element = (Element) nodes.item(parentIndex);
-    NodeList list = element.getElementsByTagName(childTag);
-    Element field = (Element) list.item(0);
+  public String getChildValue(String parentTag, int parentIndex, String childTag, int childIndex) {
+    NodeList list = m_doc.getElementsByTagName(parentTag);
+    Element parent = (Element) list.item(parentIndex);
+    NodeList childList = parent.getElementsByTagName(childTag);
+    Element field = (Element) childList.item(childIndex);
     Node child = field.getFirstChild();
     if (child instanceof CharacterData) {
       CharacterData cd = (CharacterData) child;
@@ -50,8 +50,13 @@ public class XmlDOMDocument {
   }
 
   public String getAttributeValue(String elementTag, int elementIndex, String attributeTag) {
-    NodeList nodes = m_doc.getElementsByTagName(elementTag);
-    Element element = (Element) nodes.item(elementIndex);
+    NodeList list = m_doc.getElementsByTagName(elementTag);
+    Element element = (Element) list.item(elementIndex);
     return element.getAttribute(attributeTag);
+  }
+
+  public int getRootElementCount(String rootElementTag) {
+      NodeList list = m_doc.getElementsByTagName(rootElementTag);
+      return list.getLength();
   }
 }

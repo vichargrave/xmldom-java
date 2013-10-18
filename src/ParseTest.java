@@ -28,10 +28,10 @@ public class ParseTest {
       for (int i = 0; i < count; i++) {
         System.out.println("Book "+Integer.toString(i+1));
         System.out.println("book category - "+doc.getAttributeValue("book", i, "category"));
-        System.out.println("book title    - "+doc.getChildValue("book", i, "title"));
-        System.out.println("book author   - "+doc.getChildValue("book", i, "author"));
-        System.out.println("book year     - "+doc.getChildValue("book", i, "year"));
-        System.out.println("book price    - "+doc.getChildValue("book", i, "price"));
+        System.out.println("book title    - "+doc.getChildValue("book", i, "title", 0));
+        System.out.println("book author   - "+doc.getChildValue("book", i, "author", 0));
+        System.out.println("book year     - "+doc.getChildValue("book", i, "year", 0));
+        System.out.println("book price    - "+doc.getChildValue("book", i, "price", 0));
       }
     }
     catch (Exception ex) {

@@ -4,15 +4,13 @@
     <list default="true" id="8c13a684-d2de-4a6e-9fa8-3d6e1aee260e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ParseTest.java" afterPath="$PROJECT_DIR$/src/ParseTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XmlDOMDocument.java" afterPath="$PROJECT_DIR$/src/XmlDOMDocument.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmldom-java.ipr" afterPath="$PROJECT_DIR$/xmldom-java.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmldom-java.iws" afterPath="$PROJECT_DIR$/xmldom-java.iws" />
     </list>
     <ignored path="xmldom-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8c13a684-d2de-4a6e-9fa8-3d6e1aee260e" time="1382072240837" ignored="false" />
     <file path="/ParseTest.java" changelist="8c13a684-d2de-4a6e-9fa8-3d6e1aee260e" time="1382072652813" ignored="false" />
     <file path="/XmlDOMParser.java" changelist="8c13a684-d2de-4a6e-9fa8-3d6e1aee260e" time="1361226838534" ignored="false" />
-    <file path="/XmlDOMDocument.java" changelist="8c13a684-d2de-4a6e-9fa8-3d6e1aee260e" time="1382072495770" ignored="false" />
+    <file path="/XmlDOMDocument.java" changelist="8c13a684-d2de-4a6e-9fa8-3d6e1aee260e" time="1382115017707" ignored="false" />
     <file path="/README.md" changelist="8c13a684-d2de-4a6e-9fa8-3d6e1aee260e" time="1361239504001" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,7 @@
       <file leaf-file-name="ParseTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="31" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
+            <state line="29" column="89" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,19 +84,9 @@
       <file leaf-file-name="XmlDOMDocument.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/XmlDOMDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1007" selection-end="1221" vertical-scroll-proportion="0.49172577">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XmlDOMParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/XmlDOMParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+            <state line="55" column="78" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.91962177">
               <folding>
-                <element signature="e#0#1268#0" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#2167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/com/vichargrave/ParseTest.java" />
         <option value="$PROJECT_DIR$/src/XmlDOMParser.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/XmlDOMDocument.java" />
         <option value="$PROJECT_DIR$/src/ParseTest.java" />
+        <option value="$PROJECT_DIR$/src/XmlDOMDocument.java" />
       </list>
     </option>
   </component>
@@ -444,7 +432,9 @@
     <entry file="file://$PROJECT_DIR$/src/XmlDOMDocument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="30" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#2167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -452,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#1268#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -468,7 +457,9 @@
     <entry file="file://$PROJECT_DIR$/src/XmlDOMDocument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="30" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#2167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -476,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#1268#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -492,7 +482,9 @@
     <entry file="file://$PROJECT_DIR$/src/XmlDOMDocument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="30" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#2167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,7 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#1268#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -516,7 +507,9 @@
     <entry file="file://$PROJECT_DIR$/src/XmlDOMDocument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="30" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#2167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,7 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#1268#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -542,27 +534,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="31" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/XmlDOMParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.1607565">
           <folding>
-            <element signature="e#0#1268#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="89" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/XmlDOMDocument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1007" selection-end="1221" vertical-scroll-proportion="0.49172577">
-          <folding />
+        <state line="55" column="78" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.91962177">
+          <folding>
+            <element signature="e#0#2167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
