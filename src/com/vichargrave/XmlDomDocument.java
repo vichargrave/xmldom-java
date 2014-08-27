@@ -79,12 +79,6 @@ public class XmlDomDocument {
         return element.getAttribute(attributeTag);
     }
 
-    public String getAttributeValue(String elementTag, int elementIndex, String attributeTag) {
-        NodeList list = m_doc.getElementsByTagName(elementTag);
-        Element element = (Element) list.item(elementIndex);
-        return element.getAttribute(attributeTag);
-    }
-
     public int getRootElementCount(String rootElementTag) {
         NodeList list = m_doc.getElementsByTagName(rootElementTag);
         return list.getLength();

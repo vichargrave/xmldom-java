@@ -51,7 +51,7 @@ public class ParseTest {
             newdoc.addChildElement("bookstore", 0, "book", null);
             newdoc.setAttributeValue("book", 1, "category", "children");
             newdoc.addChildElement("book", 1, "title", "Harry Potter and the Half-Blood Prince");
-            newdoc.setAttributeValue("title", 1, "lang", "en");
+            newdoc.setAttributeValue("title", 1, "lang", "es");
             newdoc.addChildElement("book", 1, "author", "J. K. Rowling");
             newdoc.addChildElement("book", 1, "year", "2005");
             newdoc.addChildElement("book", 1, "price", "29.99");
