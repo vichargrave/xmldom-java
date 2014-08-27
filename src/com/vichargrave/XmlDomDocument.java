@@ -5,7 +5,7 @@
 
    ------------------------------------------
 
-   Copyright © 2013 [Vic Hargrave - http://vichargrave.com]
+   Copyright ï¿½ 2013 [Vic Hargrave - http://vichargrave.com]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -61,8 +61,8 @@ public class XmlDomDocument {
         NodeList list = m_doc.getElementsByTagName(parentTag);
         Element parent = (Element) list.item(parentIndex);
         NodeList childList = parent.getElementsByTagName(childTag);
-        Element field = (Element) childList.item(childIndex);
-        Node child = field.getFirstChild();
+        Element element = (Element) childList.item(childIndex);
+        Node child = element.getFirstChild();
         if (child instanceof CharacterData) {
             CharacterData cd = (CharacterData) child;
             return cd.getData();
@@ -70,6 +70,15 @@ public class XmlDomDocument {
         return "";
     }
     
+    public String getChildAttribute(String parentTag, int parentIndex, String childTag, int childIndex,
+                                    String attributeTag) {
+        NodeList list = m_doc.getElementsByTagName(parentTag);
+        Element parent = (Element) list.item(parentIndex);
+        NodeList childList = parent.getElementsByTagName(childTag);
+        Element element = (Element) childList.item(childIndex);
+        return element.getAttribute(attributeTag);
+    }
+
     public String getAttributeValue(String elementTag, int elementIndex, String attributeTag) {
         NodeList list = m_doc.getElementsByTagName(elementTag);
         Element element = (Element) list.item(elementIndex);
