@@ -1,14 +1,12 @@
-xmldom-java
-===========
+# xmldom-java
 
-XML DOM Parser in Java
+Example source code for the article [_XML DOM Parser in Java_](http://vichargrave.com/xml-creation-with-dom-in-java/)
 
-Build
-=====
+## Build
 
-1. Make sure you have NetBeans 7.3 installed on yoru system.
+1. Make sure you have NetBeans installed on yoru system.
 2. Run NetBeans.
-3. Select File > Open Project.
-4. Select the xmldom-java folder.
-5. Right click on the xmldom-java project.
-6. Select Run.
+3. Select __File > Open Project__.
+4. Select the __xmldom-java__ folder.
+5. Right click on the __xmldom-java__ project.
+6. Select __Run__.
