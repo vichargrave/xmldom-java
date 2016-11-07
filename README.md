@@ -1,6 +1,6 @@
 # xmldom-java
 
-Example source code for the article [_XML DOM Parsing with DOM in Java_](http://vichargrave.com/xml-creation-with-dom-in-java/)
+Example code from XML Parsing with DOM in Java blog.
 
 ## Build
 
