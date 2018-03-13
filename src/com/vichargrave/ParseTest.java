@@ -19,7 +19,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-package com.vichargrave;
+package com.example;
 
 public class ParseTest {
     public static void main(String[] args) {
